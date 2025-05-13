@@ -165,3 +165,18 @@ For the ```tags``` category, which is used to classify recipe categories or skil
 - tailoring
 - mining
 
+## Stations
+
+For making your own stations, use the top template station, with empty strings, 0's, and empty dicts/lists
+
+For the ```type``` category, which is to sort the recipies into the right station, can be any of these:
+- crafting
+- cooking
+- smelting
+- alchemy
+- refining
+- forging
+- tailoring
+- fishing
+- enchanting
+- mechanical

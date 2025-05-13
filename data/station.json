@@ -1,0 +1,19 @@
+{
+    "stations": {
+        "id": "",
+        "name": "",
+
+        "description": "",
+        "type": "",
+
+        "allowed_recipe_types": [],
+        "tags": [],
+
+        "upgrade_from": "",
+        "requires_power": false,
+        "consumes_fuel": false,
+        "compatible_fuels": [],
+
+        "custom": {}
+    }
+}
