@@ -1,3 +1,50 @@
 {
-    "quest_one": {}
+    "quests": [
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "long_description": "",
+
+            "giver_npc": "",
+            "turn_in_npc": "",
+
+            "repeatable": false,
+            "daily": false,
+            "hidden": false,
+            "auto_complete": false,
+
+            "prerequisites": [],
+            "required_level": 0,
+
+            "objectives": [
+                {
+                    "type": "",
+                    "target_id": "",
+                    "amount": 1,
+                    "description": ""
+                }
+            ],
+            "rewards": {
+                "xp": 0,
+                "gold": 0,
+                "items": [
+                    {
+                        "id": "",
+                        "amount": 0
+                    }
+                ],
+                "unlocks_quests": [],
+                "stat_increase": {},
+                "reputation": {}
+            },
+
+            "steps": [],
+
+            "fail_conditions": [],
+
+            "tags": [],
+            "custom": {}
+        }
+    ]
 }

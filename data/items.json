@@ -1,3 +1,40 @@
 {
-    "name": {}
+    "items": [
+        {
+            "id": "",
+            "name": "",
+            "type": "",
+            "description": "",
+
+            "stackable": false,
+            "max_stack": 1,
+            "value": 0,
+            "weight": 0.0,
+
+            "tags": [],
+
+            "damage": 0,
+            "range": 0,
+            "tool_type": "",
+            "durability": 0,
+            "max_durability": 0,
+
+            "defence": 0,
+            "armor_slot": "",
+            
+            "effect": "",
+            "effect_value": 0,
+            "duration": 0.0,
+            "cooldown": 0.0,
+
+            "usable": false,
+            "craftable": false,
+            "quest_item": false,
+
+            "rarity": "common",
+            "flavor_text": "",
+
+            "custom": {}
+        }
+    ]
 }
