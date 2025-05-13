@@ -150,7 +150,7 @@ For the ```station``` category, which is used to identify where the recipe is cr
 - none                  = Handcrafted
 - any_cooking           = works at any crafting station
 - magic_station         = Works at any magical crafting station
-- tool_specific:<id>    = Requires a tool instead of station
+- tool_specific:item_id    = Requires a tool instead of station
 
 For the ```tags``` category, which is used to classify recipe categories or skill groups, it can be any of these:
 - blacksmithing
