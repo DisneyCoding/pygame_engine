@@ -21,9 +21,12 @@ class ECSManager:
     def add_component(self, entity, component):
         self.components[type(component)][entity.id] = component
 
-    def get_component(self, entity, component_type):
-        return self.components[component_type].get(entity.id)
-    
+    def get_component(self, entity, component_name):
+        for comp in self.components[entity]:
+            if comp.__class__.__name__ == component_name:
+                return comp
+            return None
+            
     def get_entities_with(self, *component_types):
         result = []
         for entity in self.entities:

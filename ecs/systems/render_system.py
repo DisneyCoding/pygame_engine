@@ -6,14 +6,24 @@ from ecs.system import System
 from ecs.component import Position
 from ecs.component import Sprite
 
+import pygame
+
 class RenderSystem(System):
-    def __init__(self, surface):
+    def __init__(self, ecs, surface):
         super().__init__()
         self.surface = surface
+        self.ecs = ecs
 
-    def update(self, ecs, dt):
-        for entity in ecs.get_entities_with(Position, Sprite):
-            pos = ecs.get_component(entity, Position)
-            sprite = ecs.get_component(entity, Sprite)
+    def render(self):
+        self.surface.fill((0, 0, 0))
+
+        for entity in self.ecs.entities:
+            pos = self.ecs.get_component(entity, Position)
+            sprite = self.ecs.get_component(entity, Sprite)
+
+            if pos is None or sprite is None or sprite.surface is None:
+                continue
 
             self.surface.blit(sprite.surface, (pos.x, pos.y))
+        
+        pygame.display.flip()
