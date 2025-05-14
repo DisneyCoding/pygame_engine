@@ -9,7 +9,6 @@
             "stackable": false,
             "max_stack": 1,
             "value": 0,
-            "weight": 0.0,
 
             "tags": [],
 
@@ -32,7 +31,91 @@
             "quest_item": false,
 
             "rarity": "common",
-            "flavor_text": "",
+
+            "custom": {}
+        },
+        {
+            "id": "oak_log",
+            "name": "Oak Log",
+            "type": "resource",
+            "description": "A freshly cut Oak Log",
+
+            "stackable": true,
+            "max_stack": 99,
+            "value": 4,
+
+            "tags": ["wood", "fuel", "common"],
+
+            "usable": false,
+            "craftable": false,
+            "quest_item": false,
+
+            "rarity": "common",
+
+            "custom": {}
+        },
+        {
+            "id": "oak_plank",
+            "name": "Oak Plank",
+            "type": "material",
+            "description": "A Plank from an Oak Tree",
+
+            "stackable": true,
+            "max_stack": 99,
+            "value": 2,
+
+            "tags": ["wood", "fuel", "common"],
+
+            "usable": false,
+            "craftable": true,
+            "quest_item": false,
+
+            "rarity": "common",
+
+            "custom": {}
+        },
+        {
+            "id": "stick",
+            "name": "Stick",
+            "type": "material",
+            "description": "A smaller peice of plank",
+
+            "stackable": true,
+            "max_stack": 99,
+            "value": 1,
+
+            "tags": ["wood", "fuel", "common"],
+
+            "usable": false,
+            "craftable": true,
+            "quest_item": false,
+
+            "rarity": "common",
+
+            "custom": {}
+        },
+        {
+            "id": "wooden_sword",
+            "name": "Wooden Sword",
+            "type": "weapon",
+            "description": "A trusty Wooden Sword",
+
+            "stackable": false,
+            "max_stack": 1,
+            "value": 10,
+
+            "tags": ["wood", "melee", "common"],
+
+            "damage": 2,
+            "range": 0,
+            "durability": 50,
+            "max_durability": 50,
+
+            "usable": true,
+            "craftable": true,
+            "quest_item": false,
+
+            "rarity": "common",
 
             "custom": {}
         }

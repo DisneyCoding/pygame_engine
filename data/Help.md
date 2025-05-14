@@ -155,6 +155,7 @@ For the ```station``` category, which is used to identify where the recipe is cr
 For the ```tags``` category, which is used to classify recipe categories or skill groups, it can be any of these:
 - blacksmithing
 - carpentry
+- crafting
 - cooking
 - farming
 - alchemy

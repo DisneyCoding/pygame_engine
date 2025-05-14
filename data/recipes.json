@@ -35,6 +35,97 @@
 
             "tags": [],
             "custom": {}
+        },
+        {
+            "id": "oak_plank",
+            "name": "Oak Plank",
+            "type": "crafting",
+
+            "station": "none",
+            "unlocked_by_default": true,
+
+            "ingredients": [
+                {
+                    "id": "oak_log",
+                    "amount": 1
+                }
+            ],
+
+            "tools_required": [],
+
+            "result": {
+                "id": "oak_plank",
+                "amount": 4
+            },
+
+            "time": 2.0,
+            "xp_reward": 0.5,
+            "level_required": 0,
+
+            "tags": ["crafting"],
+            "custom": {}
+        },
+        {
+            "id": "stick",
+            "name": "Stick",
+            "type": "crafting",
+
+            "station": "none",
+            "unlocked_by_default": true,
+
+            "ingredients": [
+                {
+                    "id": "oak_plank",
+                    "amount": 2
+                }
+            ],
+
+            "tools_required": [],
+
+            "result": {
+                "id": "stick",
+                "amount": 4
+            },
+
+            "time": 1.0,
+            "xp_reward": 0.25,
+            "level_required": 0,
+
+            "tags": ["crafting"],
+            "custom": {}
+        },
+        {
+            "id": "wooden_sword",
+            "name": "Wooden Sword",
+            "type": "crafting",
+
+            "station": "none",
+            "unlocked_by_default": true,
+
+            "ingredients": [
+                {
+                    "id": "oak_plank",
+                    "amount": 2
+                },
+                {
+                    "id": "stick",
+                    "amount": 1
+                }
+            ],
+
+            "tools_required": [],
+
+            "result": {
+                "id": "wooden_sword",
+                "amount": 1
+            },
+
+            "time": 4.0,
+            "xp_reward": 1,
+            "level_required": 0,
+
+            "tags": ["crafting"],
+            "custom": {}
         }
     ]
 }
