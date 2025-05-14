@@ -24,7 +24,7 @@ ecs.add_system(RenderSystem(screen))
 
 player = ecs.create_entity()
 
-player_sprite = pygame.Surface(32, 32)
+player_sprite = pygame.Surface((32, 32))
 player_sprite.fill((0, 255, 0))
 
 ecs.add_component(player, Position(100, 100))

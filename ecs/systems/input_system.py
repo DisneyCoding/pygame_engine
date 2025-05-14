@@ -12,7 +12,7 @@ class InputSystem(System):
     def update(self, ecs, dt):
         keys = pygame.key.get_pressed()
 
-        for entity in ecs.get_entity_with(PlayerInput, Velocity):
+        for entity in ecs.get_entities_with(PlayerInput, Velocity):
             input_comp = ecs.get_component(entity, PlayerInput)
             vel = ecs.get_component(entity, Velocity)
 

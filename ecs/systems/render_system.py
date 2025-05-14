@@ -12,8 +12,8 @@ class RenderSystem(System):
         self.surface = surface
 
     def update(self, ecs, dt):
-        for entity in ecs.get_component_with(Position, Sprite):
+        for entity in ecs.get_entities_with(Position, Sprite):
             pos = ecs.get_component(entity, Position)
-            sprite = ecs.get_compoent(entity, Sprite)
+            sprite = ecs.get_component(entity, Sprite)
 
             self.surface.blit(sprite.surface, (pos.x, pos.y))
