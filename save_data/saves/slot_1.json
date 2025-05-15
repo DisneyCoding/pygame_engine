@@ -1,16 +1,15 @@
 {
+    "id": "1",
     "position": {
         "x": 150,
         "y": 200
     },
     "inventory": [
         {
-            "item_id": "wooden_sword",
-            "amount": 1
+            "item_id": "wooden_sword"
         },
         {
-            "item_id": "oak_log",
-            "amount": 2
+            "item_id": "oak_log"
         }
     ]
 }

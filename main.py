@@ -22,8 +22,8 @@ ecs = ECSManager()
 item_db = ItemDatabase()
 save_manager = SaveManager(ecs, item_db)
 
-ecs.add_system(InputSystem())
-ecs.add_system(MovementSystem())
+ecs.add_system(InputSystem(ecs))
+ecs.add_system(MovementSystem(ecs))
 ecs.add_system(RenderSystem(ecs, screen))
 
 player_sprite = pygame.Surface((32, 32))
@@ -59,6 +59,7 @@ while running:
             save_manager.save_game(player, slot)
 
     ecs.update(dt)
+    print(player.Position)
     pygame.display.flip()
 
 pygame.quit

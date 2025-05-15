@@ -14,7 +14,8 @@ class RenderSystem(System):
         self.surface = surface
         self.ecs = ecs
 
-    def render(self):
+
+    def update(self, dt):
         self.surface.fill((0, 0, 0))
 
         for entity in self.ecs.entities:

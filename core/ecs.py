@@ -39,5 +39,5 @@ class ECSManager:
 
     def update(self, dt):
         for system in self.systems:
-            system.update(self, dt)
+            system.update(dt)
 
